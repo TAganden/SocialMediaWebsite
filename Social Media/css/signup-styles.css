@@ -1,0 +1,29 @@
+﻿body {
+	background-image:url('../images/signup-background.gif')
+}
+
+
+#wrapper {
+	height:auto; width:1065px; padding-left:150px;padding-right:150px;
+}
+
+#b {
+	font-family:Segoe Keycaps;font-size:100px;font-weight:bolder;color:#FFFFFF
+}
+
+#logspace{ font-family:Bebas;font-size:50px;color:#FFFFFF
+	
+}
+
+#w-logo{
+	width:auto;height:150px
+}
+
+#logo {
+	padding-left:350px
+}
+
+
+#signup-form {
+	padding-left:150px;padding-top:50px
+}

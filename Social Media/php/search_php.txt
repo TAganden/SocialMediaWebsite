@@ -1,0 +1,18 @@
+<?php
+
+$mysql_host = "localhost";
+$mysql_user = "root";
+$mysql_password = "";
+$mysql_database = "dbms_project";
+
+$bd = mysql_connect($mysql_host, $mysql_user, $mysql_password) or die("Could not connect database");
+
+mysql_select_db($mysql_database, $bd) or die("Could not select database");
+
+$firstName = mysql_real_escape_string($_POST['firstName']);
+$lastName = mysql_real_escape_string($_POST['lastName']);
+
+$qry="SELECT * FROM users WHERE firstName='$firstName' AND lastName='$lastName'";
+	$result=mysql_query($qry);	
+
+?>
